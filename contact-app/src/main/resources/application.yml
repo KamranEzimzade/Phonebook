@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: contact-app
+  main:
+    banner-mode: off
+  datasource:
+    url: jdbc:mysql://database-1.clo6paigt6gk.us-east-2.rds.amazonaws.com:3306/kamrandb
+    username: kamran
+    password: kamran94
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    open-in-view: true
